@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication3.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>享医网</h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus0" runat="server">登录</a> ]
+                         [ <a href="~/Account/Register.aspx" ID="A1" runat="server">注册</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        欢迎使用 <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="注销" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink" style="font-size: larger">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="首页" Value="首页"/>
+                        <asp:MenuItem NavigateUrl="~/p_caozuo.aspx" Text="病例库" Value="病例库"/>
+                        <asp:MenuItem NavigateUrl="~/d_caozuo.aspx" Text="病历库" Value="病历库"></asp:MenuItem>
+                        <asp:MenuItem Text="提问" Value="提问"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+        <div class="header">
+            <div class="loginDisplay" style="margin:auto;">
+                <h1 style="font-size: x-small;margin:auto;text-align:center;width:auto;">
+                    Copyright ©&nbsp; xy,zmj,syc&nbsp;All Rights Reserved </h1>
+            </div>
+        </div>
+        
+    </div>
+    </form>
+</body>
+</html>
