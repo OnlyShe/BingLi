@@ -1,0 +1,5 @@
+D:\C#课设\yixiang\yixiang\bin\yixiang.dll
+D:\C#课设\yixiang\yixiang\bin\yixiang.pdb
+D:\C#课设\yixiang\yixiang\obj\Debug\ResolveAssemblyReference.cache
+D:\C#课设\yixiang\yixiang\obj\Debug\yixiang.dll
+D:\C#课设\yixiang\yixiang\obj\Debug\yixiang.pdb
