@@ -56,8 +56,13 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="bin\YiXiangLibrary.dll" />
+    <Content Include="bin\YiXiangLibrary.pdb" />
     <Content Include="d_bingli_insert.aspx" />
     <Content Include="d_bingli_select.aspx" />
+    <Content Include="obj\Debug\YiXiangLibrary.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\YiXiangLibrary.dll" />
+    <Content Include="obj\Debug\YiXiangLibrary.pdb" />
     <Content Include="Styles\Normalize.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
@@ -151,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
@@ -158,6 +164,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="d_bingli_caozuo.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
