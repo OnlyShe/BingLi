@@ -30,16 +30,9 @@
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="首页" Value="首页"/>
                         <asp:MenuItem NavigateUrl="~/d_bingli_select.aspx" Text="查看病历" Value="查看病历"/>
                         <asp:MenuItem NavigateUrl="~/d_bingli_insert.aspx" Text="添加病历" Value="添加病历"></asp:MenuItem>
-                        <asp:MenuItem Text="修改病历" Value="修改病历"></asp:MenuItem>
-<<<<<<< HEAD
-                        <asp:MenuItem NavigateUrl="~/d_delbingli.aspx" Text="删除病历" Value="删除病历"></asp:MenuItem>
-                       <%-- <asp:MenuItem NavigateUrl="~/d_xiugaibingli.aspx" Text="修改病历" Value="修改病历"></asp:MenuItem>--%>
-                        <asp:MenuItem Text="提问" Value="提问"></asp:MenuItem>
-=======
-                         <%--<asp:MenuItem NavigateUrl="~/d_delbingli.aspx" Text="删除病历" Value="删除病历"></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/d_xiugaibingli.aspx" Text="修改病历" Value="修改病历"></asp:MenuItem>--%>
+                        <asp:MenuItem NavigateUrl="~/d_bingli_del.aspx" Text="删除病历" Value="删除病历"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/d_bingli_update.aspx" Text="修改病历" Value="修改病历"></asp:MenuItem>
                         <asp:MenuItem Text="提问" NavigateUrl="~/tiwen.aspx" Value="提问"></asp:MenuItem>
->>>>>>> 842b70398c20d0cbb75be7a256b0f8dab07a58f4
                     </Items>
                 </asp:Menu>
             </div>

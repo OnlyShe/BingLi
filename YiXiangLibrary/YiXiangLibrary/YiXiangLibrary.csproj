@@ -61,6 +61,7 @@
     <Content Include="d_bingli_del.aspx" />
     <Content Include="d_bingli_insert.aspx" />
     <Content Include="d_bingli_select.aspx" />
+    <Content Include="d_bingli_update.aspx" />
     <Content Include="img\4.jpg" />
     <Content Include="img\5.jpg" />
     <Content Include="Login_doctor.aspx" />
@@ -156,6 +157,13 @@
     </Compile>
     <Compile Include="d_bingli_select.aspx.designer.cs">
       <DependentUpon>d_bingli_select.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="d_bingli_update.aspx.cs">
+      <DependentUpon>d_bingli_update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="d_bingli_update.aspx.designer.cs">
+      <DependentUpon>d_bingli_update.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
