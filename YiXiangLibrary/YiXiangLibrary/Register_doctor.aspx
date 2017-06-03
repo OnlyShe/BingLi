@@ -1,17 +1,7 @@
-﻿<%@ Page Title="注册" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeBehind="Register.aspx.cs" Inherits="YiXiangLibrary.Account.Register" %>
-
+﻿<%@ Page Language="C#" MasterPageFile="~/Site.master"  AutoEventWireup="true" CodeBehind="Register_doctor.aspx.cs" Inherits="YiXiangLibrary.Register_doctor" %>
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-                    <h2>
-                        创建新帐户
-                    </h2>
-                    <p>
-                        使用以下表单创建新帐户。
-                    </p>
-
                     <div class="accountInfo">
                         <fieldset class="register">
                             <legend>帐户信息</legend>
@@ -21,14 +11,13 @@
 
                             </p>
                             <p>
-                                <asp:Label ID="realname" runat="server"  AssociatedControlID="RealNameText">真实姓名:</asp:Label>
-                                <asp:TextBox ID="RealNameText" runat="server" CssClass="textEntry"></asp:TextBox>
+                                <asp:Label ID="yiyuanid" runat="server">医院编号:</asp:Label>
+                                <asp:TextBox ID="yyid" runat="server" CssClass="textEntry"></asp:TextBox>
 
                             </p>
                             <p>
-                                <asp:Label ID="idLabel" runat="server" AssociatedControlID="uid">身份证号:</asp:Label>
-                                <asp:TextBox ID="uid" runat="server" CssClass="textEntry"></asp:TextBox>
-
+                                <asp:Label ID="Label1" runat="server">身份证编号:</asp:Label>
+                                <asp:TextBox ID="did" runat="server" CssClass="textEntry"></asp:TextBox>
                             </p>
                             <p>
                                 <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password">密码:</asp:Label>
@@ -41,7 +30,7 @@
 
                             </p>
                         </fieldset>
-                        <asp:Label ID="Label1" runat="server" ForeColor="Red"></asp:Label>
+                        <asp:Label ID="Label2" runat="server"></asp:Label>
                         <p class="submitButton">
                             <asp:Button ID="CreateUserButton" runat="server" Text="创建用户" 
                                 onclick="CreateUserButton_Click"  />

@@ -7,10 +7,10 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace YiXiangLibrary.Account {
+namespace YiXiangLibrary {
     
     
-    public partial class Register {
+    public partial class Register_doctor {
         
         /// <summary>
         /// UserNameLabel 控件。
@@ -31,40 +31,40 @@ namespace YiXiangLibrary.Account {
         protected global::System.Web.UI.WebControls.TextBox UserName;
         
         /// <summary>
-        /// realname 控件。
+        /// yiyuanid 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label realname;
+        protected global::System.Web.UI.WebControls.Label yiyuanid;
         
         /// <summary>
-        /// RealNameText 控件。
+        /// yyid 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox RealNameText;
+        protected global::System.Web.UI.WebControls.TextBox yyid;
         
         /// <summary>
-        /// idLabel 控件。
+        /// Label1 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label idLabel;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// uid 控件。
+        /// did 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox uid;
+        protected global::System.Web.UI.WebControls.TextBox did;
         
         /// <summary>
         /// PasswordLabel 控件。
@@ -103,13 +103,13 @@ namespace YiXiangLibrary.Account {
         protected global::System.Web.UI.WebControls.TextBox ConfirmPassword;
         
         /// <summary>
-        /// Label1 控件。
+        /// Label2 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
         /// CreateUserButton 控件。
