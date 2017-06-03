@@ -58,6 +58,7 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="bin\YiXiangLibrary.dll" />
     <Content Include="bin\YiXiangLibrary.pdb" />
+    <Content Include="d_bingli_del.aspx" />
     <Content Include="d_bingli_insert.aspx" />
     <Content Include="d_bingli_select.aspx" />
     <Content Include="img\4.jpg" />
@@ -133,6 +134,13 @@
     </Compile>
     <Compile Include="d_bingli_caozuo.Master.designer.cs">
       <DependentUpon>d_bingli_caozuo.Master</DependentUpon>
+    </Compile>
+    <Compile Include="d_bingli_del.aspx.cs">
+      <DependentUpon>d_bingli_del.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="d_bingli_del.aspx.designer.cs">
+      <DependentUpon>d_bingli_del.aspx</DependentUpon>
     </Compile>
     <Compile Include="d_bingli_insert.aspx.cs">
       <DependentUpon>d_bingli_insert.aspx</DependentUpon>
