@@ -1,0 +1,4 @@
+C:\Users\lenovo\Desktop\bl\BingLi\YiXiangLibrary\YiXiangLibrary\bin\YiXiangLibrary.dll
+C:\Users\lenovo\Desktop\bl\BingLi\YiXiangLibrary\YiXiangLibrary\bin\YiXiangLibrary.pdb
+C:\Users\lenovo\Desktop\bl\BingLi\YiXiangLibrary\YiXiangLibrary\obj\Debug\YiXiangLibrary.dll
+C:\Users\lenovo\Desktop\bl\BingLi\YiXiangLibrary\YiXiangLibrary\obj\Debug\YiXiangLibrary.pdb
