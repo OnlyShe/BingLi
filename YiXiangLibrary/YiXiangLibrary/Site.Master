@@ -37,7 +37,7 @@
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="首页" Value="首页"/>
                         <asp:MenuItem NavigateUrl="~/d_bingli_insert.aspx" Text="病例库" Value="病例库"/>
                         <asp:MenuItem NavigateUrl="~/d_bingli_select.aspx" Text="病历库" Value="病历库"></asp:MenuItem>
-                        <asp:MenuItem Text="提问" Value="提问"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/tiwen.aspx" Text="提问" Value="提问"></asp:MenuItem>
                     </Items>
                 </asp:Menu>
             </div>

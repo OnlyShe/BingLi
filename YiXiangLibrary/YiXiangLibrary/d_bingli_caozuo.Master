@@ -34,7 +34,7 @@
                         <asp:MenuItem Text="修改病历" Value="修改病历"></asp:MenuItem>
                          <%--<asp:MenuItem NavigateUrl="~/d_delbingli.aspx" Text="删除病历" Value="删除病历"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/d_xiugaibingli.aspx" Text="修改病历" Value="修改病历"></asp:MenuItem>--%>
-                        <asp:MenuItem Text="提问" Value="提问"></asp:MenuItem>
+                        <asp:MenuItem Text="提问" NavigateUrl="~/tiwen.aspx" Value="提问"></asp:MenuItem>
                     </Items>
                 </asp:Menu>
             </div>
