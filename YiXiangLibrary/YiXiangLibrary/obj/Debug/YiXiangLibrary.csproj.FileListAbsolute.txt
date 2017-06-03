@@ -6,7 +6,14 @@ D:\大学\软件工程\新工程\BingLi\YiXiangLibrary\YiXiangLibrary\bin\YiXian
 D:\大学\软件工程\新工程\BingLi\YiXiangLibrary\YiXiangLibrary\bin\YiXiangLibrary.pdb
 D:\大学\软件工程\新工程\BingLi\YiXiangLibrary\YiXiangLibrary\obj\Debug\YiXiangLibrary.dll
 D:\大学\软件工程\新工程\BingLi\YiXiangLibrary\YiXiangLibrary\obj\Debug\YiXiangLibrary.pdb
+<<<<<<< HEAD
 D:\大学\软件工程\新建文件夹\新建文件夹\BingLi\YiXiangLibrary\YiXiangLibrary\bin\YiXiangLibrary.dll
 D:\大学\软件工程\新建文件夹\新建文件夹\BingLi\YiXiangLibrary\YiXiangLibrary\bin\YiXiangLibrary.pdb
 D:\大学\软件工程\新建文件夹\新建文件夹\BingLi\YiXiangLibrary\YiXiangLibrary\obj\Debug\YiXiangLibrary.dll
 D:\大学\软件工程\新建文件夹\新建文件夹\BingLi\YiXiangLibrary\YiXiangLibrary\obj\Debug\YiXiangLibrary.pdb
+=======
+C:\Users\Biubiubiu\Desktop\11\BingLi\YiXiangLibrary\YiXiangLibrary\bin\YiXiangLibrary.dll
+C:\Users\Biubiubiu\Desktop\11\BingLi\YiXiangLibrary\YiXiangLibrary\bin\YiXiangLibrary.pdb
+C:\Users\Biubiubiu\Desktop\11\BingLi\YiXiangLibrary\YiXiangLibrary\obj\Debug\YiXiangLibrary.dll
+C:\Users\Biubiubiu\Desktop\11\BingLi\YiXiangLibrary\YiXiangLibrary\obj\Debug\YiXiangLibrary.pdb
+>>>>>>> 842b70398c20d0cbb75be7a256b0f8dab07a58f4
