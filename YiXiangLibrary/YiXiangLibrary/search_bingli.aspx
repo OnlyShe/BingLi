@@ -13,7 +13,7 @@
             Height="28px" Width="249px" BorderColor="#3399FF"></asp:TextBox>
             <asp:Button ID="Button1" runat="server" BackColor="#3399FF" 
               ForeColor="White" Height="28px" Text="查询" 
-                Width="110px" Font-Size="Medium" />
+                Width="110px" Font-Size="Medium" onclick="Button1_Click" />
         </div>
 
         <br />
