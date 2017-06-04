@@ -56,6 +56,7 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="Bingli.aspx" />
     <Content Include="bin\YiXiangLibrary.dll" />
     <Content Include="bin\YiXiangLibrary.pdb" />
     <Content Include="d_bingli_insert.aspx" />
@@ -119,6 +120,14 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Bingli.aspx.cs">
+      <DependentUpon>Bingli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bingli.aspx.designer.cs">
+      <DependentUpon>Bingli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BingliClass.cs" />
     <Compile Include="DbConnection.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
