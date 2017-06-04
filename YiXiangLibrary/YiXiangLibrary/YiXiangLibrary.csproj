@@ -70,6 +70,7 @@
     <Content Include="img\4.jpg" />
     <Content Include="img\5.jpg" />
     <Content Include="Insert_Bingli.aspx" />
+    <Content Include="list_answer.aspx" />
     <Content Include="Login_doctor.aspx" />
     <Content Include="obj\Debug\YiXiangLibrary.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\YiXiangLibrary.dll" />
@@ -233,6 +234,13 @@
     </Compile>
     <Compile Include="Insert_Bingli.aspx.designer.cs">
       <DependentUpon>Insert_Bingli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="list_answer.aspx.cs">
+      <DependentUpon>list_answer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="list_answer.aspx.designer.cs">
+      <DependentUpon>list_answer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login_doctor.aspx.cs">
       <DependentUpon>Login_doctor.aspx</DependentUpon>
