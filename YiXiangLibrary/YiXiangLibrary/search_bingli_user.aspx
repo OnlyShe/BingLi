@@ -1,4 +1,4 @@
-﻿<%@ Page MasterPageFile="~/Bingli_Header.master" Language="C#" AutoEventWireup="true" CodeBehind="search_bingli.aspx.cs" Inherits="YiXiangLibrary.search_bingli" %>
+﻿<%@ Page MasterPageFile="~/Site.master"  Language="C#" AutoEventWireup="true" CodeBehind="search_bingli_user.aspx.cs" Inherits="YiXiangLibrary.search_bingli_user" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
@@ -56,5 +56,3 @@
             </div>
         </div>
 </asp:Content>
-
-

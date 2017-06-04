@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="YiXiangLibrary.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="For_user.master.cs" Inherits="YiXiangLibrary.For_user" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
@@ -35,7 +35,7 @@
                 <asp:Menu ID="Menu1" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="首页" Value="首页"/>
-                        <asp:MenuItem NavigateUrl="~/search_bingli.aspx" Text="病例库" Value="病例库"/>
+                        <asp:MenuItem NavigateUrl="~/search_bingli_user.aspx" Text="病例库" Value="病例库"/>
                         <asp:MenuItem NavigateUrl="~/d_bingli_insert.aspx" Text="病历库" Value="病历库"></asp:MenuItem>
                         <asp:MenuItem Text="提问" Value="提问"></asp:MenuItem>
                     </Items>

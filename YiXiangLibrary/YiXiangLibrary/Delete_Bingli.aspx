@@ -1,4 +1,4 @@
-﻿<%@ Page MasterPageFile="~/Site.master" Language="C#" AutoEventWireup="true" CodeBehind="Delete_Bingli.aspx.cs" Inherits="YiXiangLibrary.Delete_Bingli" %>
+﻿<%@ Page MasterPageFile="~/Bingli_Header.master" Language="C#" AutoEventWireup="true" CodeBehind="Delete_Bingli.aspx.cs" Inherits="YiXiangLibrary.Delete_Bingli" %>
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">

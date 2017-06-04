@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="YiXiangLibrary.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Bingli_Header.master.cs" Inherits="YiXiangLibrary.Bingli_Header" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
@@ -21,10 +21,6 @@
             </div>
             <div class="loginDisplay">
                 <asp:LoginView ID="LoginView1" runat="server" EnableViewState="false">
-                    <AnonymousTemplate>
-                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus0" runat="server">登录</a> ]
-                         [ <a href="~/Account/Register.aspx" ID="A1" runat="server">注册</a> ]
-                    </AnonymousTemplate>
                     <LoggedInTemplate>
                         欢迎使用 <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
                         [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="注销" LogoutPageUrl="~/"/> ]
@@ -35,7 +31,10 @@
                 <asp:Menu ID="Menu1" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="首页" Value="首页"/>
-                        <asp:MenuItem NavigateUrl="~/search_bingli.aspx" Text="病例库" Value="病例库"/>
+                        <asp:MenuItem NavigateUrl="~/search_bingli.aspx" Text="查询其他病例" Value="查询其他病例"/>
+                        <asp:MenuItem NavigateUrl="~/Delete_Bingli.aspx" Text="删除病例" Value="删除病例"/>
+                        <asp:MenuItem NavigateUrl="~/Insert_Bingli.aspx" Text="新增病例" Value="新增病例"/>
+                        <asp:MenuItem NavigateUrl="~/Bingli.aspx" Text="查询我的病例" Value="查询我的病例"/>
                         <asp:MenuItem NavigateUrl="~/d_bingli_insert.aspx" Text="病历库" Value="病历库"></asp:MenuItem>
                         <asp:MenuItem Text="提问" Value="提问"></asp:MenuItem>
                     </Items>
