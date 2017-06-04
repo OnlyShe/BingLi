@@ -24,7 +24,7 @@ namespace YiXiangLibrary
             SqlDataReader reader = cmd.ExecuteReader();
             if (reader.Read())
             {
-                Response.Redirect("Default.aspx");
+                Response.Redirect("search_bingli.aspx?did=" + reader["d_id"].ToString().Trim());
             }
             else
             {

@@ -11,9 +11,10 @@ namespace YiXiangLibrary
 {
     public partial class Insert_Bingli : System.Web.UI.Page
     {
+        public string did;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            did = Request["did"];
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -26,7 +27,7 @@ namespace YiXiangLibrary
             }
             else
             {
-                string str = "insert into explain(d_id,e_express,e_date,dis_id) values('100009','" + TextBox2.Text.ToString().Trim() + "','" + System.DateTime.Now + "','" + TextBox1.Text.ToString().Trim() + "')";
+                string str = "insert into explain(d_id,e_express,e_date,dis_id) values('"+did+"','" + TextBox2.Text.ToString().Trim() + "','" + System.DateTime.Now + "','" + TextBox1.Text.ToString().Trim() + "')";
                 SqlCommand cmd = new SqlCommand(str, conn);
                 try
                 {

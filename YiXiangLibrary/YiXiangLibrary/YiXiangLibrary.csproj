@@ -57,6 +57,7 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Bingli.aspx" />
+    <Content Include="Bingli_own.aspx" />
     <Content Include="Bingli_user.aspx" />
     <Content Include="Bingli_XiangQing.aspx" />
     <Content Include="bin\YiXiangLibrary.dll" />
@@ -146,6 +147,13 @@
     </Compile>
     <Compile Include="Bingli_Header.Master.designer.cs">
       <DependentUpon>Bingli_Header.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Bingli_own.aspx.cs">
+      <DependentUpon>Bingli_own.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bingli_own.aspx.designer.cs">
+      <DependentUpon>Bingli_own.aspx</DependentUpon>
     </Compile>
     <Compile Include="Bingli_user.aspx.cs">
       <DependentUpon>Bingli_user.aspx</DependentUpon>

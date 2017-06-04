@@ -35,6 +35,7 @@ namespace YiXiangLibrary.Account
                 try
                 {
                     cmd.ExecuteNonQuery();
+                    Response.Redirect("Login.aspx");
                 }
                 catch (Exception ex)
                 {

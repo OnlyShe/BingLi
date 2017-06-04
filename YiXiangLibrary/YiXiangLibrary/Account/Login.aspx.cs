@@ -22,7 +22,7 @@ namespace YiXiangLibrary.Account
             SqlDataReader reader = cmd.ExecuteReader();
             if (reader.Read())
             {
-                Response.Redirect("..//Default.aspx");
+                Response.Redirect("..//Default.aspx?uid="+reader["u_id"].ToString().Trim());
             }
             else
             {

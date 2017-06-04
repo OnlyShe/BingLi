@@ -6,9 +6,11 @@
 <div style="width:100%;">
     <div class="bingli_div" style="width:68%;display:inline-block;border-right:1px solid gray;">
     <%  for(int i=0;i<count;i++)
-        { %>
+        {
+            string url = "Bingli_Xiangqing.aspx?did="+did+"&eid=" + data4[i];
+            %>
    
-        <a href="#">
+        <a href="<%=url %>">
         <div class="bingli_juti">
         <h2>[好转]</h2>
         <h3><%Response.Write(data1[i].ToString());%></h3>

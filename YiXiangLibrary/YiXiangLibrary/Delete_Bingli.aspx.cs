@@ -11,9 +11,11 @@ namespace YiXiangLibrary
 {
     public partial class Delete_Bingli : System.Web.UI.Page
     {
-        public string str = "select * from explain";
+        public string did;
         protected void Page_Load(object sender, EventArgs e)
         {
+            did = Request["did"];
+            string str = "select * from explain where d_id='"+did+"'";
             SqlConnection conn = new SqlConnection(DbConnection.connection());
             conn.Open();
             SqlCommand cmd = new SqlCommand(str, conn);
@@ -40,7 +42,7 @@ namespace YiXiangLibrary
             {
                 Label2.Text = "删除失败";
             }
-            Response.Redirect("Delete_Bingli.aspx"); 
+            Response.Redirect("Delete_Bingli.aspx?did="+did); 
         }
     }
 }
