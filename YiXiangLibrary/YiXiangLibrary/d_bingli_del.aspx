@@ -1,4 +1,4 @@
-﻿<%@ Page Title="医生删除病历" Language="C#" MasterPageFile="~/d_bingli_caozuo.Master" AutoEventWireup="true" CodeBehind="d_bibgli_del.aspx.cs" Inherits="YiXiangLibrary.d_bibgli_del" %>
+﻿<%@ Page Title="医生删除病历" Language="C#" MasterPageFile="~/d_bingli_caozuo.Master" AutoEventWireup="true" CodeBehind="d_bingli_del.aspx.cs" Inherits="YiXiangLibrary.d_bibgli_del" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
