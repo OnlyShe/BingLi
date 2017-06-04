@@ -18,7 +18,7 @@
 <br />
 
 <div class="index_ul" style="width:60%;border:3px solid #b6b7bc;padding:5px,5px,5px,5px; margin-left: 0px;">
-        <% for (int i = 0; i < count; i++)
+        <% for (int i = count-1; i >=0; i--)
            { %>
 
     <h1 style="display:inline;margin:5px 5px 10px 0px;">[问题]</h1>
