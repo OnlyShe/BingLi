@@ -37,7 +37,7 @@ namespace YiXiangLibrary
                     }
                     if (PatientSickNameLabel.Text.Trim() != "")
                     {
-                        cmd = new SqlCommand("update records set r_check = '" + PatientSickNameLabel.Text + "' where u_idcard = '" + PatientID.Text + "'", conn);
+                        cmd = new SqlCommand("update records set r_check = '" + PatientSickName.Text + "' where u_idcard = '" + PatientID.Text + "'", conn);
                         cmd.ExecuteNonQuery();
                     }
                     if (PatientMedicine.Text.Trim() != "")

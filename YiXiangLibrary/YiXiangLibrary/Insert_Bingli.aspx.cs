@@ -12,8 +12,10 @@ namespace YiXiangLibrary
     public partial class Insert_Bingli : System.Web.UI.Page
     {
         public string did;
+        
         protected void Page_Load(object sender, EventArgs e)
         {
+            Label2.Text = "";
             did = Request["did"];
         }
 
