@@ -1,8 +1,0 @@
-C:\Users\lenovo\Desktop\bl\BingLi\YiXiangLibrary\YiXiangLibrary\bin\YiXiangLibrary.dll
-C:\Users\lenovo\Desktop\bl\BingLi\YiXiangLibrary\YiXiangLibrary\bin\YiXiangLibrary.pdb
-C:\Users\lenovo\Desktop\bl\BingLi\YiXiangLibrary\YiXiangLibrary\obj\Debug\YiXiangLibrary.dll
-C:\Users\lenovo\Desktop\bl\BingLi\YiXiangLibrary\YiXiangLibrary\obj\Debug\YiXiangLibrary.pdb
-D:\大学\软件工程\新工程\BingLi\YiXiangLibrary\YiXiangLibrary\bin\YiXiangLibrary.dll
-D:\大学\软件工程\新工程\BingLi\YiXiangLibrary\YiXiangLibrary\bin\YiXiangLibrary.pdb
-D:\大学\软件工程\新工程\BingLi\YiXiangLibrary\YiXiangLibrary\obj\Debug\YiXiangLibrary.dll
-D:\大学\软件工程\新工程\BingLi\YiXiangLibrary\YiXiangLibrary\obj\Debug\YiXiangLibrary.pdb
