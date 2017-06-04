@@ -15,9 +15,13 @@ namespace YiXiangLibrary
         public ArrayList data2 = new ArrayList();
         public ArrayList data3 = new ArrayList();
         public int count = 0;
+        public string uid;
+        public string disid;
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            uid = Request["uid"];
+            disid = Request["disid"];
             data1.Clear();
             data2.Clear();
             data3.Clear();
@@ -25,7 +29,8 @@ namespace YiXiangLibrary
             BingliClass bl = new BingliClass();
             string name = "", des = "", people = "";
             SqlConnection conn = new SqlConnection(DbConnection.connection());
-            string str = "select doctors.d_name,dis_name,explain.e_express from doctors,explain,disease where doctors.d_id=explain.d_id and explain.dis_id=disease.dis_id";
+            //string str = "select doctors.d_name,dis_name,explain.e_express from doctors,explain,disease where doctors.d_id=explain.d_id and explain.dis_id=disease.dis_id";
+            string str = "select doctors.d_name,dis_name,explain.e_express,explain.e_id from doctors,explain,disease where doctors.d_id=explain.d_id and explain.dis_id=disease.dis_id and disease.dis_id='" + disid + "'";
             conn.Open();
             SqlCommand cmd = new SqlCommand(str, conn);
             SqlDataReader reader = cmd.ExecuteReader();

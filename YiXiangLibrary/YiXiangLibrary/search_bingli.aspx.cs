@@ -20,7 +20,7 @@ namespace YiXiangLibrary
         {
             SqlConnection conn = new SqlConnection(DbConnection.connection());
             conn.Open();
-            string str = "select * from disease where dis_name='%" + TextBox1.Text.ToString().Trim() + "%'";
+            string str = "select * from disease where dis_name like '%" + TextBox1.Text.ToString().Trim() + "%'";
             SqlCommand cmd = new SqlCommand(str, conn);
             SqlDataReader reader = cmd.ExecuteReader();
             if (reader.Read())
