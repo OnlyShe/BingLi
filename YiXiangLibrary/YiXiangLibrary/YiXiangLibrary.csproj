@@ -57,12 +57,16 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Bingli.aspx" />
+    <Content Include="Bingli_user.aspx" />
+    <Content Include="Bingli_XiangQing.aspx" />
     <Content Include="bin\YiXiangLibrary.dll" />
     <Content Include="bin\YiXiangLibrary.pdb" />
+    <Content Include="Delete_Bingli.aspx" />
     <Content Include="d_bingli_insert.aspx" />
     <Content Include="d_bingli_select.aspx" />
     <Content Include="img\4.jpg" />
     <Content Include="img\5.jpg" />
+    <Content Include="Insert_Bingli.aspx" />
     <Content Include="Login_doctor.aspx" />
     <Content Include="obj\Debug\YiXiangLibrary.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\YiXiangLibrary.dll" />
@@ -70,6 +74,7 @@
     <Content Include="p_bingli_select.aspx" />
     <Content Include="Register_doctor.aspx" />
     <Content Include="search_bingli.aspx" />
+    <Content Include="search_bingli_user.aspx" />
     <Content Include="Styles\Normalize.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
@@ -129,6 +134,27 @@
       <DependentUpon>Bingli.aspx</DependentUpon>
     </Compile>
     <Compile Include="BingliClass.cs" />
+    <Compile Include="Bingli_Header.Master.cs">
+      <DependentUpon>Bingli_Header.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bingli_Header.Master.designer.cs">
+      <DependentUpon>Bingli_Header.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Bingli_user.aspx.cs">
+      <DependentUpon>Bingli_user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bingli_user.aspx.designer.cs">
+      <DependentUpon>Bingli_user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bingli_XiangQing.aspx.cs">
+      <DependentUpon>Bingli_XiangQing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bingli_XiangQing.aspx.designer.cs">
+      <DependentUpon>Bingli_XiangQing.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DbConnection.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -136,6 +162,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Bingli.aspx.cs">
+      <DependentUpon>Delete_Bingli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Delete_Bingli.aspx.designer.cs">
+      <DependentUpon>Delete_Bingli.aspx</DependentUpon>
     </Compile>
     <Compile Include="d_bingli_caozuo.Master.cs">
       <DependentUpon>d_bingli_caozuo.Master</DependentUpon>
@@ -158,8 +191,22 @@
     <Compile Include="d_bingli_select.aspx.designer.cs">
       <DependentUpon>d_bingli_select.aspx</DependentUpon>
     </Compile>
+    <Compile Include="For_user.Master.cs">
+      <DependentUpon>For_user.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="For_user.Master.designer.cs">
+      <DependentUpon>For_user.Master</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Insert_Bingli.aspx.cs">
+      <DependentUpon>Insert_Bingli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Insert_Bingli.aspx.designer.cs">
+      <DependentUpon>Insert_Bingli.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login_doctor.aspx.cs">
       <DependentUpon>Login_doctor.aspx</DependentUpon>
@@ -197,6 +244,13 @@
     <Compile Include="search_bingli.aspx.designer.cs">
       <DependentUpon>search_bingli.aspx</DependentUpon>
     </Compile>
+    <Compile Include="search_bingli_user.aspx.cs">
+      <DependentUpon>search_bingli_user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search_bingli_user.aspx.designer.cs">
+      <DependentUpon>search_bingli_user.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -217,6 +271,8 @@
     <Content Include="d_bingli_caozuo.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bingli_Header.Master" />
+    <Content Include="For_user.Master" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="p_bingli_caozuo.Master" />
   </ItemGroup>
