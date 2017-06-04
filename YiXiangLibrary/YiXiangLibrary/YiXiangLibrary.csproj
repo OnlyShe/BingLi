@@ -72,6 +72,7 @@
     <Content Include="obj\Debug\YiXiangLibrary.dll" />
     <Content Include="obj\Debug\YiXiangLibrary.pdb" />
     <Content Include="p_bingli_select.aspx" />
+    <Content Include="question.aspx" />
     <Content Include="Register_doctor.aspx" />
     <Content Include="search_bingli.aspx" />
     <Content Include="search_bingli_user.aspx" />
@@ -229,6 +230,13 @@
     </Compile>
     <Compile Include="p_bingli_select.aspx.designer.cs">
       <DependentUpon>p_bingli_select.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="question.aspx.cs">
+      <DependentUpon>question.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="question.aspx.designer.cs">
+      <DependentUpon>question.aspx</DependentUpon>
     </Compile>
     <Compile Include="Register_doctor.aspx.cs">
       <DependentUpon>Register_doctor.aspx</DependentUpon>
