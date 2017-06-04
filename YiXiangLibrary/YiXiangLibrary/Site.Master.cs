@@ -9,7 +9,7 @@ namespace YiXiangLibrary
 {
     public partial class SiteMaster : System.Web.UI.MasterPage
     {
-        //public string did = "";
+        public string did = "";
         public string uid = "";
         public string str00 = "";
         public string str01 = "";

@@ -24,7 +24,7 @@
                     <AnonymousTemplate>
                     <%if (uid == "")
                     {%>
-			    [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus0" runat="server">登录</a> ]
+			             [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus0" runat="server">登录</a> ]
                          [ <a href="~/Account/Register.aspx" ID="A1" runat="server">注册</a> ]
                     <%
                     }

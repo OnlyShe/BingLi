@@ -63,7 +63,6 @@ namespace YiXiangLibrary
 
         protected void AgainButton_Click(object sender, EventArgs e)
         {
-            Time.Text = "";
             Cost.Text = "";
             PatientName.Text = " ";
             PatientID.Text = " ";

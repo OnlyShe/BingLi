@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/d_bingli_caozuo.Master" AutoEventWireup="true" 
+﻿<%@ Page Title="医生查询病历" Language="C#" MasterPageFile="~/d_bingli_caozuo.Master" AutoEventWireup="true" 
         CodeBehind="d_bingli_select.aspx.cs" Inherits="YiXiangLibrary.d_bingli_select" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>

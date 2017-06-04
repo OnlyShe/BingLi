@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/d_bingli_caozuo.Master" AutoEventWireup="true" CodeBehind="d_bingli_insert.aspx.cs" Inherits="YiXiangLibrary.d_bingli_insert" %>
+﻿<%@ Page Title="医生添加病历" Language="C#" MasterPageFile="~/d_bingli_caozuo.Master" AutoEventWireup="true" CodeBehind="d_bingli_insert.aspx.cs" Inherits="YiXiangLibrary.d_bingli_insert" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -50,10 +50,10 @@
                 <asp:Label ID="CostLabel" runat="server" AssociatedControlID="Cost">花费:</asp:Label>
                 <asp:TextBox ID="Cost" runat="server" CssClass="textEntry"></asp:TextBox>
             </p>
-            <p>
+<%--            <p>
                 <asp:Label ID="TimeLabel" runat="server" AssociatedControlID="Time">入院时间:</asp:Label>
                 <asp:TextBox ID="Time" runat="server" CssClass="textEntry"></asp:TextBox>
-            </p>
+            </p>--%>
             <p>
                 <asp:Label ID="catchLabel" runat="server" Width="171px" ForeColor="Red"></asp:Label>
             </p>
