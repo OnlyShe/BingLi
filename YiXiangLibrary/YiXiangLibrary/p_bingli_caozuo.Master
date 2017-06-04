@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="p_bingli_caozuo.master.cs" Inherits="YiXiangLibrary.p_bingli_caozuo" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>享医网</h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        欢迎! | <a href="~/Account/Login.aspx" ID="HeadLoginStatus0" runat="server">退出</a>
+                    </AnonymousTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink" style="font-size: larger">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/p_bingli_select.aspx" Text="首页" Value="首页"/>
+                        <asp:MenuItem Text="病历" Value="病历库"></asp:MenuItem>
+                        <asp:MenuItem Text="提问" Value="提问"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+
+
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+        <div class="header">
+            <div class="loginDisplay" style="margin:auto;">
+                <h1 style="font-size: x-small;margin:auto;text-align:center;width:auto;">
+                    Copyright ©&nbsp; xy,zmj,syc&nbsp;All Rights Reserved </h1>
+            </div>
+        </div>
+        
+    </div>
+    </form>
+</body>
+</html>
+

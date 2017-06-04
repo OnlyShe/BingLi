@@ -67,6 +67,7 @@
     <Content Include="obj\Debug\YiXiangLibrary.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\YiXiangLibrary.dll" />
     <Content Include="obj\Debug\YiXiangLibrary.pdb" />
+    <Content Include="p_bingli_select.aspx" />
     <Content Include="Register_doctor.aspx" />
     <Content Include="search_bingli.aspx" />
     <Content Include="Styles\Normalize.css" />
@@ -168,6 +169,20 @@
       <DependentUpon>Login_doctor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="p_bingli_caozuo.Master.cs">
+      <DependentUpon>p_bingli_caozuo.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p_bingli_caozuo.Master.designer.cs">
+      <DependentUpon>p_bingli_caozuo.Master</DependentUpon>
+    </Compile>
+    <Compile Include="p_bingli_select.aspx.cs">
+      <DependentUpon>p_bingli_select.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p_bingli_select.aspx.designer.cs">
+      <DependentUpon>p_bingli_select.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Register_doctor.aspx.cs">
       <DependentUpon>Register_doctor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -203,6 +218,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="p_bingli_caozuo.Master" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
