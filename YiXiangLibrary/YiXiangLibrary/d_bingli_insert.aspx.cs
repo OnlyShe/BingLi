@@ -55,9 +55,9 @@ namespace YiXiangLibrary
                 conn.Close();
 
             }
-            catch
+            catch (Exception err)
             {
-                catchLabel.Text = "数据库连接失败！";
+                catchLabel.Text = err.ToString();
             }
         }
 

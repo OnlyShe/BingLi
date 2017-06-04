@@ -62,6 +62,8 @@
     <Content Include="bin\YiXiangLibrary.dll" />
     <Content Include="bin\YiXiangLibrary.pdb" />
     <Content Include="Delete_Bingli.aspx" />
+    <Content Include="d_bibgli_del.aspx" />
+    <Content Include="d_bingli_caozuo.aspx" />
     <Content Include="d_bingli_insert.aspx" />
     <Content Include="d_bingli_select.aspx" />
     <Content Include="img\4.jpg" />
@@ -170,6 +172,20 @@
     </Compile>
     <Compile Include="Delete_Bingli.aspx.designer.cs">
       <DependentUpon>Delete_Bingli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="d_bibgli_del.aspx.cs">
+      <DependentUpon>d_bibgli_del.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="d_bibgli_del.aspx.designer.cs">
+      <DependentUpon>d_bibgli_del.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="d_bingli_caozuo.aspx.cs">
+      <DependentUpon>d_bingli_caozuo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="d_bingli_caozuo.aspx.designer.cs">
+      <DependentUpon>d_bingli_caozuo.aspx</DependentUpon>
     </Compile>
     <Compile Include="d_bingli_caozuo.Master.cs">
       <DependentUpon>d_bingli_caozuo.Master</DependentUpon>
