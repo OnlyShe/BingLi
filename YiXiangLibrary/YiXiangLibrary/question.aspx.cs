@@ -77,7 +77,7 @@ namespace YiXiangLibrary
 
         protected void Button_tiwen_Click(object sender, EventArgs e)
         {
-            Response.Redirect("tiwen.aspx", true);
+            Response.Redirect("user_tiwen.aspx", true);
         }
     }
 }
