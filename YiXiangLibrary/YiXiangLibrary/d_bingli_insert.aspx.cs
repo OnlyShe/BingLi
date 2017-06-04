@@ -48,7 +48,7 @@ namespace YiXiangLibrary
                     + "','" + PatientSickTreat.Text
                     + "','" + PatientMedicine.Text
                     + "','" + Cost.Text
-                    + "','" + Time.Text + "') ";
+                    + "','" + DateTime.Now.ToString()+"') ";
                     cmd.ExecuteNonQuery();
                     catchLabel.Text = "添加成功！";
                 }

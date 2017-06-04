@@ -30,10 +30,8 @@
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="首页" Value="首页"/>
                         <asp:MenuItem NavigateUrl="~/d_bingli_select.aspx" Text="查看病历" Value="查看病历"/>
                         <asp:MenuItem NavigateUrl="~/d_bingli_insert.aspx" Text="添加病历" Value="添加病历"></asp:MenuItem>
-                        <asp:MenuItem Text="删除病历" Value="删除病历"></asp:MenuItem>
-                        <asp:MenuItem Text="修改病历" Value="修改病历"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/d_bingli_del.aspx" Text="删除病历" Value="删除病历"></asp:MenuItem>
-                         <%--<asp:MenuItem NavigateUrl="~/d_xiugaibingli.aspx" Text="修改病历" Value="修改病历"></asp:MenuItem>--%>
+                        <asp:MenuItem NavigateUrl="~/d_bingli_update.aspx" Text="修改病历" Value="修改病历"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/question.aspx" Text="提问" Value="提问"></asp:MenuItem>
                     </Items>
                 </asp:Menu>

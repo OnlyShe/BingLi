@@ -66,6 +66,7 @@
     <Content Include="d_bingli_caozuo.aspx" />
     <Content Include="d_bingli_insert.aspx" />
     <Content Include="d_bingli_select.aspx" />
+    <Content Include="d_bingli_update.aspx" />
     <Content Include="img\4.jpg" />
     <Content Include="img\5.jpg" />
     <Content Include="Insert_Bingli.aspx" />
@@ -208,6 +209,13 @@
     </Compile>
     <Compile Include="d_bingli_select.aspx.designer.cs">
       <DependentUpon>d_bingli_select.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="d_bingli_update.aspx.cs">
+      <DependentUpon>d_bingli_update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="d_bingli_update.aspx.designer.cs">
+      <DependentUpon>d_bingli_update.aspx</DependentUpon>
     </Compile>
     <Compile Include="For_user.Master.cs">
       <DependentUpon>For_user.Master</DependentUpon>
