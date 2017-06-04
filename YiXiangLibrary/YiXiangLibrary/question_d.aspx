@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="question.aspx.cs" MasterPageFile="~/Site.Master"  Inherits="YiXiangLibrary.question" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Bingli_Header.Master" CodeBehind="question_d.aspx.cs" Inherits="YiXiangLibrary.question_d" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
@@ -25,7 +25,7 @@
 
     <h3 style="display:inline;" ><%Response.Write(data1[i].ToString());%></h4>
 
-    <h3 style="display:block;float:right;" ><a href="list_answer.aspx?qid=<%=data5[i] %>&did=<%=did %>"><<了解更多</a></h4>
+    <h3 style="display:block;float:right;" ><a href="list_answer_d.aspx?qid=<%=data5[i] %>&did=<%=did %>"><<了解更多</a></h4>
     
     <ul style="font-size:medium;">
     <li style="margin:5px;" ><%Response.Write(data2[i].ToString());%>&nbsp;</li> 
@@ -40,4 +40,5 @@
     </div>
 
 </asp:Content>
+
 

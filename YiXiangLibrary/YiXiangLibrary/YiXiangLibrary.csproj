@@ -72,12 +72,14 @@
     <Content Include="img\5.jpg" />
     <Content Include="Insert_Bingli.aspx" />
     <Content Include="list_answer.aspx" />
+    <Content Include="list_answer_d.aspx" />
     <Content Include="Login_doctor.aspx" />
     <Content Include="obj\Debug\YiXiangLibrary.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\YiXiangLibrary.dll" />
     <Content Include="obj\Debug\YiXiangLibrary.pdb" />
     <Content Include="p_bingli_select.aspx" />
     <Content Include="question.aspx" />
+    <Content Include="question_d.aspx" />
     <Content Include="Register_doctor.aspx" />
     <Content Include="search_bingli.aspx" />
     <Content Include="search_bingli_user.aspx" />
@@ -250,6 +252,13 @@
     <Compile Include="list_answer.aspx.designer.cs">
       <DependentUpon>list_answer.aspx</DependentUpon>
     </Compile>
+    <Compile Include="list_answer_d.aspx.cs">
+      <DependentUpon>list_answer_d.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="list_answer_d.aspx.designer.cs">
+      <DependentUpon>list_answer_d.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login_doctor.aspx.cs">
       <DependentUpon>Login_doctor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -278,6 +287,13 @@
     </Compile>
     <Compile Include="question.aspx.designer.cs">
       <DependentUpon>question.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="question_d.aspx.cs">
+      <DependentUpon>question_d.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="question_d.aspx.designer.cs">
+      <DependentUpon>question_d.aspx</DependentUpon>
     </Compile>
     <Compile Include="Register_doctor.aspx.cs">
       <DependentUpon>Register_doctor.aspx</DependentUpon>

@@ -10,10 +10,12 @@ namespace YiXiangLibrary
     public partial class Bingli_Header : System.Web.UI.MasterPage
     {
         public string did;
+
         public  string str;
         protected void Page_Load(object sender, EventArgs e)
         {
-            did = Request["did"];
+            //did = Request["did"];
+            did = "100002";
             str = "~/search_bingli.aspx?did=" + did;
             Menu1.Items[0].NavigateUrl = str;
             str="~/Delete_Bingli.aspx?did="+did;
@@ -24,7 +26,7 @@ namespace YiXiangLibrary
             Menu1.Items[3].NavigateUrl = str;
             str = "~/d_bingli_select.aspx?did=" + did;
             Menu1.Items[4].NavigateUrl = str;
-            str = "~/question.aspx?did=" + did;
+            str = "~/question_d.aspx?did=" + did;
             Menu1.Items[5].NavigateUrl = str;
         }
 

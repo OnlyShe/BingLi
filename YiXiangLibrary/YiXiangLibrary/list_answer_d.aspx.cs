@@ -10,7 +10,7 @@ using System.Collections;
 
 namespace YiXiangLibrary
 {
-    public partial class list_answer : System.Web.UI.Page
+    public partial class list_answer_d : System.Web.UI.Page
     {
         public ArrayList data1 = new ArrayList();
         public ArrayList data2 = new ArrayList();
@@ -99,7 +99,7 @@ namespace YiXiangLibrary
             qid = Request.QueryString["qid"];
             findquestion(qid);
             findanswer(qid);
-            if (did=="")
+            if (did == "")
             {
                 Button_huida.Text = "医生才能回答";
                 Button_huida.Enabled = false;

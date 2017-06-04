@@ -10,7 +10,7 @@ using System.Collections;
 
 namespace YiXiangLibrary
 {
-    public partial class question : System.Web.UI.Page
+    public partial class question_d : System.Web.UI.Page
     {
         public ArrayList data1 = new ArrayList();
         public ArrayList data2 = new ArrayList();
